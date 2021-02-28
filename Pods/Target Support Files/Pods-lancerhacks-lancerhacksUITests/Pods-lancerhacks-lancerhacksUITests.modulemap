@@ -1,0 +1,6 @@
+framework module Pods_lancerhacks_lancerhacksUITests {
+  umbrella header "Pods-lancerhacks-lancerhacksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

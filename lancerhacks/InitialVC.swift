@@ -14,8 +14,14 @@ class InitialVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination
+        vc.modalPresentationStyle = .overFullScreen
+    }
 
+    @IBAction func initialtosignup(_ sender: Any) {
+        performSegue(withIdentifier: "initialtosignup", sender: nil)
+    }
     /*
     // MARK: - Navigation
 

@@ -2,18 +2,18 @@
 //  AppDelegate.swift
 //  lancerhacks
 //
-//  Created by Vidit Agrawal on 2/27/21.
+//  Created by Sid on 2/27/21.
 //
 
 import UIKit
-
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
